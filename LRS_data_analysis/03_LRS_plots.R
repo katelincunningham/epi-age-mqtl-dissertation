@@ -41,13 +41,13 @@ alt_allele <- df_sub %>%
 #define order 00, 11, 01
 allele_order<- c(
   paste0(ref_allele,ref_allele),
-  paste0(alt_allele,alt_allele),
-  paste0(ref_allele,alt_allele))
+  paste0(ref_allele,alt_allele),
+  paste0(alt_allele,alt_allele))
 df_sub$Genotype_class <- factor(df_sub$Genotype_class, levels = allele_order)
 
 #set colours for plot
 colours <- setNames(
-  c("#4DAF4A", "#984EA3", "#FF7F00"),
+  c("#4DAF4A","#FF7F00", "#984EA3"),
   allele_order)
 
 ##------------------ PLOTS------------------------- ##
