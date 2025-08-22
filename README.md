@@ -11,6 +11,9 @@ Investigate age and genotype effects on cg10501210 methylation in long-read data
 
 Explore haplotype-specific methylation patterns.
 
-The study provides insights into whether cg10501210 functions as a pan-tissue ageing biomarker and evaluates possible genetic influences in ONT long-read data.
+## Script Usage
+
+`AGT_methyl_.sh` investigate the genotypic effect of an mQTL on DNA methylation at a CpG site using BED file of its location.
+
 
 
