@@ -1,7 +1,7 @@
 # Age and Genetic Impact on Age-associated CpGs
 
 ## Project Overview
-These analysis were part of submission for MSc in Bioinformatics at Queen Mary University of London.
+These analyses were part of the submission for the Dissertation Module for MSc in Bioinformatics at Queen Mary University of London.
 
 This repository contains code and scripts used to analyse DNA methylation at the CpG site cg10501210, with a focus on its association with ageing across multiple tissues and the potential genetic regulation by the mQTL rs41317993.
 
@@ -15,13 +15,13 @@ The analysis integrates array-based methylation datasets and Oxford Nanopore lon
 
 ## Script Usage
 
-The `DNAm_array_data_alaysis` folder conatins scripts used to investiagte the pan-tissue effect of cg10501210 DNA methylation.
+The `DNAm_array_data_analysis` folder contains scripts used to investigate the pan-tissue effect of cg10501210 DNA methylation.
 
-The `Age_DNAm_analysis_LRS` folder included scripts used to evaluate effect of age on cg10501210 DNA methylation in ONT LRS data.
+The `Age_DNAm_analysis_LRS` folder includes scripts used to evaluate the effect of age on cg10501210 DNA methylation in ONT LRS data.
 
-The `methyl_AGT_plot.sh` script along with the required R scripts `00_Rlibs.R` , `01_Combine_bed.R` , `02_Combine_Data.R` and `03__LRS_plots.R` can be used to visualise the genotypic effect of an mQTL on DNA methylation at a CpG site.
+The `methyl_AGT_plot.sh` script along with the required R scripts `00_Rlibs.R`, `01_Combine_bed.R`, `02_Combine_Data.R` and `03__LRS_plots.R` can be used to visualise the genotypic effect of an mQTL on DNA methylation at a CpG site.
 
-It requres:
+It requires:
 * BAM and phased VCF files
 * BED file of CpG location
 * Chromosome location of mQTL
